@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div>
+    <div class="heading">
+      <h1 class="logo">Weather<span>App</span></h1>
+    </div>
+
+    <div class="container">
+      <!-- Left side -->
+      <div class="div1">
+        <div>
+          <h1 id="temp">--°C</h1>
+          <h2 id="location">in ...</h2>
+          <p id="date">--:-- - Day</p>
+          <p id="condition">---</p>
+        </div>
+      </div>
+
+      <!-- Right side -->
+      <div class="div2">
+        <form class="search_form">
+          <input type="text" class="search" placeholder="Search for city">
+          <button type="submit" class="search_button">Search</button>
+          <p id="error" class="error"></p>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
